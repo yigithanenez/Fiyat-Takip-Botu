@@ -97,14 +97,12 @@ def fiyat_kontrol_et():
 #* 3. ZAMANLAYICI DÖNGÜSÜ (OTOMASYON)
 #! -------------------------------------------------------------
 
+# -------------------------------------------------------------
+# ÇALIŞTIRMA NOKTASI (GITHUB ACTIONS İÇİN TEK SEFERLİK ÇALIŞMA)
+# -------------------------------------------------------------
 if __name__ == "__main__":
-    print("🚀Fiyat Takip Botu Çalıştırıldı...")
+    print("🚀 Fiyat Takip Botu Çalıştırıldı...")
     print("-----------------------------------------------------")
-
-
-    #? Botu durdurana kadar sonsuz döngüde çalıştırıyoruz
-    while True:
-        fiyat_kontrol_et()
-        # Test amaçlı 10 saniyede bir kontrol eder (Gerçek Kullanımda 3600 yapıp 1 saatte bir kontrol edebilirsin.)
-        print(" 10 saniye sonra tekrar kontrol edilecek... \n")
-        time.sleep(10)
+    fiyat_kontrol_et()
+    print("-----------------------------------------------------")
+    print("✅ İşlem tamamlandı.")
