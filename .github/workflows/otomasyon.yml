@@ -31,4 +31,4 @@ jobs:
             # Eğer gizli API anahtarları veya veritabanı bilgileri varsa buraya tanımlanır:
             DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           run: |
-            python main.py
+            python fiyat_takip_botu.py
