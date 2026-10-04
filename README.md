@@ -125,23 +125,26 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 ## 🤝 Katkıda Bulunma
 
-Katkılar çok hoş geldinir!
+Projemize katkıda bulunmak istiyorsan, lütfen şu adımları izle:
 
-1. Repository'yi fork et
-2. Feature branch'i oluştur (`git checkout -b feature/YeniOzellik`)
-3. Değişiklikleri commit et (`git commit -m 'Add: Yeni özellik'`)
-4. Branch'i push et (`git push origin feature/YeniOzellik`)
-5. Pull Request aç
+1. Repository'yi **fork** et
+2. **Feature branch** oluştur: `git checkout -b feature/YeniOzellik`
+3. Değişiklikleri **commit** et: `git commit -m 'Add: Yeni özellik'`
+4. Branch'i **push** et: `git push origin feature/YeniOzellik`
+5. **Pull Request** aç
 
 ## 📄 Lisans
 
-Bu proje **MIT License** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+Bu proje **MIT License** altında lisanslanmıştır.  
+Detaylar için [LICENSE](LICENSE) dosyasını incele.
 
 ## 👨‍💻 Geliştirici
 
-**Yiğithan Enez**  
-GitHub: [@yigithanenez](https://github.com/yigithanenez)
+**Yiğit Hanenez**  
+📧 E-posta: [email'in varsa]  
+🔗 GitHub: [@yigithanenez](https://github.com/yigithanenez)  
+💼 LinkedIn: [linkedinprofilin varsa ekle]
 
 ---
 
-⭐ **Eğer projeni beğendiysen, bir yıldız vermeyi unutma!**
+⭐ **Eğer bu proje sana yardımcı olduysa, lütfen bir yıldız vermeyi unutma!**
